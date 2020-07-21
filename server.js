@@ -9,7 +9,7 @@ const server = express();
 
 const sessionConfig = {
   name: "mySession",
-  secret: "none of your business",
+  secret: "what I say",
   cookie: {
     maxAge: 1000 * 30,
     secure: false,
